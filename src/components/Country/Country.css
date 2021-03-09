@@ -1,0 +1,25 @@
+.country{
+    border: 1px solid lightgray;
+    border-radius: 15px;
+    text-align: center;
+    margin: 15px;
+    padding: 10px;
+}
+.country img{
+    width: 100%;
+    height: 180px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+.country button{
+    background-color: rgb(173, 1, 173);
+    border: 1px solid rgb(173, 1, 173);
+    border-radius: 30px;
+    color: white;
+    width: 60%;
+    height: 40px;
+}
+.country button:hover{
+    background-color: rgb(206, 1, 206);
+    font-size: 18px;
+}

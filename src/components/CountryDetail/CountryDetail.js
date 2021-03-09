@@ -14,7 +14,6 @@ const CountryDetail = () => {
     if(country.length !== 0){
         isShow = true;
     }
-    console.log(country.length);
     return (
         isShow && <Container>
             <img style={{width: '60%'}} src={country[0].flag} alt=""/>

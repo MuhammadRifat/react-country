@@ -13,7 +13,7 @@ const Home = () => {
         <Container>
             <Row>
             {
-                countries.map(country => <Country country={country}></Country>)
+                countries.map(country => <Country country={country} key={country.name}></Country>)
             }
             </Row>
         </Container>

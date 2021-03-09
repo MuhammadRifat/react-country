@@ -9,9 +9,9 @@ const CountryDetail = () => {
         fetch(`https://restcountries.eu/rest/v2/name/${countryName}`)
         .then(res => res.json())
         .then(data => setCountry(data))
-    }, [])
+    }, [countryName])
     let isShow = false;
-    if(country.length != 0){
+    if(country.length !== 0){
         isShow = true;
     }
     console.log(country.length);
